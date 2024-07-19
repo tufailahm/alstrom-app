@@ -11,4 +11,9 @@ class AlstromAppApplicationTests {
 		assertEquals(190, 190);
 	}
 
+	@Test
+	public void testSendMessage() {
+		Message message = new Message();
+		assertEquals("Hello OFSS!!!", message.getMessage());
+	}
 }
